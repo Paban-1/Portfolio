@@ -1,10 +1,31 @@
-# React + Vite
+# 🚀 My Developer Portfolio  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built with **React (Vite)**, styled using **Tailwind CSS**, and animated with **Framer Motion**.  
+It highlights my **skills, projects, and achievements** while providing a simple way to connect with me.  
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [View Portfolio](https://portfolio-lime-zeta-25.vercel.app/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-Check out my portfolio [here](https://portfolio-lime-zeta-25.vercel.app/).
+## ✨ Features
+- Responsive and modern UI with Tailwind CSS  
+- Smooth animations powered by Framer Motion  
+- Iconography with **Remix Icon** and **Lucide React**  
+- Sections for Home, Skills, Projects, and Resume/Download  
+- Hosted & deployed seamlessly on Vercel  
+
+---
+
+## 🛠️ Tech Stack
+- **React (Vite)** – Fast & modern frontend setup  
+- **Tailwind CSS** – Utility-first styling  
+- **Framer Motion** – Animations & transitions  
+- **Remix Icon + Lucide React** – Beautiful icons  
+- **Vercel** – Deployment and hosting  
+
+---
+
+## 📸 Screenshots
+![Portfolio Screenshot](./screenshot.png) <!-- You can replace with an actual screenshot -->
+
+---
