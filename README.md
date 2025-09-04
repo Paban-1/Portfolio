@@ -26,6 +26,6 @@ It highlights my **skills, projects, and achievements** while providing a simple
 ---
 
 ## 📸 Screenshots
-![Portfolio Screenshot](./screenshot.png) <!-- You can replace with an actual screenshot -->
+![Portfolio Screenshot](Portfolio.png) <!-- You can replace with an actual screenshot -->
 
 ---
