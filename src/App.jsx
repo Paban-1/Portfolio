@@ -7,7 +7,6 @@ import About from "./component/About";
 import AboutMe from "./component/AboutMe";
 import Footer from "./component/Footer";
 
-
 const App = () => {
   return (
     <div>
