@@ -11,19 +11,28 @@ const ProjectChard = ({
   ProjectName = "",
   Description = "",
   Description2 = "",
-  Description3="",
+  Description3 = "",
   variants,
+  link,
 }) => {
   return (
-    <motion.section className={`rounded-xl bg-[#f5f0e3]`} variants={variants}>
+    <motion.a
+      className={`rounded-xl bg-[#f5f0e3] overflow-hidden`}
+      variants={variants}
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <div
-        className={`p-2 ${className} rounded-br-xl rounded-tl-xl rounded-tr-xl`}
+        className={`p-2 ${className} rounded-br-xl rounded-tl-xl rounded-tr-xl object-cover`}
       >
-        <img
-          src={img && img}
-          alt="Project pic"
-          className="md:h-48 h-44 w-full rounded-md"
-        />
+        <div className="overflow-hidden rounded-md">
+          <img
+            src={img && img}
+            alt="Project pic"
+            className="md:h-48 h-44 w-full rounded-md hover:scale-105 duration-300"
+          />
+        </div>
         <div className="w-full py-1">
           <p className={`font-bold ${textStyle} md:text-xl text-[15px]`}>
             {ProjectName && ProjectName}
@@ -34,26 +43,26 @@ const ProjectChard = ({
         <div
           className={`w-full rounded-br-xl rounded-bl-xl ${className} flex justify-start gap-4 items-center px-2 py-1 `}
         >
-          <p className={`${descriptionStyle} md:text-xl text-[15px] `}>
+          <p className={`${descriptionStyle} md:text-xl text-[15px] font-bold`}>
             {Description && Description}
           </p>
-          <p className={`${descriptionStyle} md:text-xl text-[15px] `}>
+          <p className={`${descriptionStyle} md:text-xl text-[15px] font-bold`}>
             {Description2}
           </p>
-          <p className={`${descriptionStyle} md:text-xl text-[15px] `}>
+          <p className={`${descriptionStyle} md:text-xl text-[15px] font-bold`}>
             {Description3}
           </p>
         </div>
         <div className="rounded-tr-xl rounded-bl-xl rounded-br-xl flex relative ">
           <div className={`h-6 w-6 absolute ${className}`}></div>
-          <div className="h-full w-full rounded-full bg-[#f5f0e3] flex justify-center items-center p-2 z-10">
+          <div className="h-full w-full rounded-full bg-[#f5f0e3] flex justify-center items-center p-2 z-10 hover:scale-150 duration-300 hover:text-white">
             <RiArrowRightUpLine
               className={`h-6 rounded-full ${className2} p-1`}
             />
           </div>
         </div>
       </div>
-    </motion.section>
+    </motion.a>
   );
 };
 

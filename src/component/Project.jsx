@@ -31,10 +31,10 @@ const Project = () => {
         whileInView="visible"
         variants={containerVariants && containerVariants}
       >
-        {PROJECTCHARDDATA.map((projectdata, index) => {
+        {PROJECTCHARDDATA.map((projectdata) => {
           return (
             <ProjectChard
-              key={index}
+              key={projectdata.id}
               variants={ChardVariants}
               img={projectdata.img}
               ProjectName={projectdata.ProjectName}
@@ -45,6 +45,7 @@ const Project = () => {
               descriptionStyle={projectdata.descriptionStyle}
               className={projectdata.className}
               className2={projectdata.className2}
+              link={projectdata.link}
             />
           );
         })}

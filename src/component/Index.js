@@ -1,24 +1,22 @@
 import {
-  RiHome3Line,
-  RiBloggerLine,
-  RiContactsLine,
   RiDownloadLine,
-  RiStarFill,
-  RiMoonCloudyLine,
   RiPencilLine,
   RiBarChart2Fill,
   RiSmartphoneLine,
   RiShieldLine,
   RiTwitterXLine,
-  RiStarLine,
   RiMailAiLine,
   RiLinkedinLine,
   RiInstagramLine,
+  RiCodeAiFill,
+  RiRocket2Fill,
+  RiUser3Fill,
 } from "@remixicon/react";
 import { RocketIcon, Target, Zap, Brain, Handshake } from "lucide-react";
 import Profile from "../assets/profileDp.png";
-export default Profile;
+import ProjectPortfolio from "../assets/Project1.png";
 
+export default Profile;
 
 export const HeadingVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -137,29 +135,32 @@ export const SKILLSSET = [
   },
 ];
 
-import ProjectPortfolio from '../assets/ProjectPortfolio.png'
+
 
 export const PROJECTCHARDDATA = [
   {
+    id:1,
     img: ProjectPortfolio,
-    ProjectName: "Portfolio",
+    ProjectName: "Portfolio Website",
     stack1: "React",
     stack2: "JavaScrpt",
-    stack3:"Tailwnd",
+    stack3: "Tailwnd",
     textStyle: "text-black",
     descriptionStyle: "text-black",
     className: "bg-[#c7c7c7]",
     className2: "bg-blue-300",
+    link:"https://portfolio-lime-zeta-25.vercel.app/"
   },
   {
+    id:2,
     img: ProjectPortfolio,
     ProjectName: "Portfolio",
     stack1: "React",
     stack2: "JavaScrpt",
-    stack3:"Tailwnd",
+    stack3: "Tailwnd",
     textStyle: "text-black",
     descriptionStyle: "text-black",
-    className: "bg-[#c7c7c7]",
+    className: "bg-[#8afa49]",
     className2: "bg-blue-300",
   },
   // {
@@ -266,8 +267,8 @@ export const ABOUTME = [
 ];
 
 export const NavItems = [
-  { href: "#home", label: "HOME", icon: RiHome3Line },
-  { href: "#skill", label: "SKILLS", icon: RiBloggerLine },
-  { href: "#project", label: "PROJECT", icon: RiContactsLine },
+  { href: "#home", label: "HOME", icon: RiUser3Fill },
+  { href: "#skill", label: "SKILLS", icon: RiCodeAiFill },
+  { href: "#project", label: "PROJECT", icon: RiRocket2Fill },
   { href: "download", label: "DOWNLOAD", icon: RiDownloadLine },
 ];

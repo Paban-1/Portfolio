@@ -9,7 +9,7 @@
     background: #f5f0e3;
     color: black;
     scroll-behavior: smooth;
-    font-family: cursive;
+    /* font-family: cursive; */
 }
 
 #work, #about, #experience, #testimonials, #contact{
