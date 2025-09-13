@@ -12,9 +12,17 @@ import {
   RiRocket2Fill,
   RiUser3Fill,
 } from "@remixicon/react";
+
 import { RocketIcon, Target, Zap, Brain, Handshake } from "lucide-react";
+
+
+
 import Profile from "../assets/profileDp.png";
 import ProjectPortfolio from "../assets/Project1.png";
+import VirtualR from '../assets/AIProject.png'
+import InkDrop from '../assets/InkDrop.png'
+import Restaura from '../assets/restaura.png'
+
 
 export default Profile;
 
@@ -141,50 +149,53 @@ export const PROJECTCHARDDATA = [
   {
     id:1,
     img: ProjectPortfolio,
-    ProjectName: "Portfolio Website",
+    ProjectName: "My Portfolio Website ✨",
     stack1: "React",
     stack2: "JavaScrpt",
     stack3: "Tailwnd",
-    textStyle: "text-black",
-    descriptionStyle: "text-black",
-    className: "bg-[#c7c7c7]",
-    className2: "bg-blue-300",
+    textStyle: "text-white",
+    descriptionStyle: "text-white",
+    className: "bg-black",
+    className2: "bg-black",
     link:"https://portfolio-lime-zeta-25.vercel.app/"
   },
   {
     id:2,
-    img: ProjectPortfolio,
-    ProjectName: "Portfolio",
+    img: VirtualR,
+    ProjectName: "VirtualR Landing Page✨",
     stack1: "React",
     stack2: "JavaScrpt",
     stack3: "Tailwnd",
-    textStyle: "text-black",
-    descriptionStyle: "text-black",
-    className: "bg-[#8afa49]",
-    className2: "bg-blue-300",
+    textStyle: "text-white",
+    descriptionStyle: "text-white",
+    className: "bg-black",
+    className2: "bg-black",
+  },
+  {
+    img: InkDrop,
+    ProjectName: "InkDrop AI Blog Writing app ✨",
+    stack1: "React",
+    stack2: "JavaScrpt",
+    stack3: "Gemini API",
+    textStyle: "text-white",
+    descriptionStyle: "text-white",
+    className: "bg-black",
+    className2: "bg-black",
+     link:"https://ink-drop-two.vercel.app/"
+  },
+  {
+    img: Restaura,
+    ProjectName: "Restaura Website✨",
+     stack1: "React",
+    stack2: "JavaScrpt",
+    stack3: "Farmar Motion",
+    textStyle: "text-white",
+    descriptionStyle: "text-white",
+    className: "bg-black",
+    className2: "bg-black",
   },
   // {
-  //   img: Project1,
-  //   ProjectName: "Demo",
-  //   Description: "Demo",
-  //   Description2: "Demo",
-  //   textStyle: "text-white",
-  //   descriptionStyle: "text-white",
-  //   className: "bg-black",
-  //   className2: "bg-green-400",
-  // },
-  // {
-  //   img: Project1,
-  //   ProjectName: "Demo",
-  //   Description: "Demo",
-  //   Description2: "Demo",
-  //   textStyle: "text-black",
-  //   descriptionStyle: "text-black",
-  //   className: "bg-[#8afa49]",
-  //   className2: "bg-blue-300",
-  // },
-  // {
-  //   img: Project1,
+  //   img: InkDrop,
   //   ProjectName: "Demo",
   //   Description: "Demo",
   //   Description2: "Demo",
