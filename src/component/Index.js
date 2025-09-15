@@ -18,10 +18,10 @@ import { RocketIcon, Target, Zap, Brain, Handshake } from "lucide-react";
 
 
 import Profile from "../assets/profileDp.png";
-import ProjectPortfolio from "../assets/Project1.png";
-import VirtualR from '../assets/AIProject.png'
-import InkDrop from '../assets/InkDrop.png'
-import Restaura from '../assets/restaura.png'
+import ProjectPortfolio from "../assets/PortfolioImg.jpg";
+import VirtualR from '../assets/VirtualRImg.jpg'
+import InkDrop from '../assets/EditInkDrop.jpg'
+import Restaura from '../assets/resturai.jpg'
 
 
 export default Profile;
